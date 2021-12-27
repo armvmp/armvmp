@@ -5,7 +5,7 @@
 防止程序被攻击者动态调试分析和破解, 为客户提供安全服务减少攻击行为
 ### Change Log
 
-#### ArmVMP 4.0 (2022-02-18)
+#### ArmVMP 4.0 (2021-12-18)
 Support IOS (MacO File Format) Arm64 Instruction
 
 #### ArmVMP 3.0 (2021-08-18)
