@@ -1,21 +1,31 @@
 ## Welcome to ArmVMP
 
-### ArmVMP
+### 简介
    ArmVMP 是一款致力于保护Arm芯片平台上的二进制程序的软件产品，是基于指令虚拟化技术对保护后的程序进行模拟运行;
-防止程序被攻击者动态调试分析和破解, 为客户提供安全服务减少攻击行为
-### Change Log
+加固期间用户无需提供源码及编译链工具等，只需上传编译后的程序即可对函数进行vmp虚拟化保护，目前已支持安卓，苹果，Ubuntu/Linux, 树莓派系统平台。
+保护后能防止程序被攻击者动态调试分析和破解, 为客户提供安全服务减少攻击行为
 
+### 授权服务
+证书类型           免费版:                                 基础版:                  增强版：                旗舰版:           备注
+服务价格           0元                                    3000元/年               10000元/年              30000元/年       
+保护条件           保护函数名称后缀需要带protect_by_armvmp   无限制                   无限制                  无限制            保护函数的名称
+保护数量           保护函数数量最大30个                     上限300个                上限3000个              无限制            保护函数的数量
+大小限制           上限10M                                上限30M                 上限100M                无限制            单次提交程序文件(非安装包)
+函数策略           不支持                                 不支持                   支持                    支持             支持自定义配置保护函数
+
+
+### 更新日志
 #### ArmVMP 4.0 (2021-12-18)
-Support IOS (MacO File Format) Arm64 Instruction
+支持苹果IOS系统(MachO文件格式) Arm32&Arm64 指令架构
 
 #### ArmVMP 3.0 (2021-08-18)
-Support FreeRTOS (ELF File Format) Thumb-2 Instruction
+支持Ubuntu/Linux系统(ELF文件格式) Arm32&Arm64 指令架构
 
 #### ArmVMP 2.0 (2021-06-18)
-Support Android/Ubuntu (ELF File Format) Arm64 Instruction
+支持安卓/鸿蒙系统 (ELF文件格式) Arm64 指令架构
 
 #### ArmVMP 1.0 (2021-02-18)
-Support Android/Ubuntu (ELF File Format) Arm/Thumb/Thumb-2 Instruction
+支持安卓/鸿蒙系统(ELF文件格式) Arm32 指令架构)
 
 
 
